@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Inicio"  android:icon="@drawable/ic_home" android:id="@+id/firstFragment"/>
+    <item android:title="Perfil" android:icon="@drawable/ic_person" android:id="@+id/secondFragment"/>
+    <item android:title="Configurações" android:icon="@drawable/ic_settings" android:id="@+id/thirdFragment"/>
+</menu>

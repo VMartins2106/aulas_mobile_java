@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Barra de navegacao</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="primeira_tela">Primeira Tela</string>
+    <string name="segunda_tela">Segunda Tela</string>
+    <string name="terceira_tela">Terceira Tela</string>
+</resources>

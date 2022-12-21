@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="icons">
+        <item name="home">@drawable/ic_baseline_home_24</item>
+        <item name="calendario">@drawable/ic_baseline_calendar_today_24</item>
+        <item name="notificações">@drawable/ic_baseline_notifications_24</item>
+        <item name="musica">@drawable/ic_baseline_music_note_24</item>
+        <item name="configurações">@drawable/ic_baseline_settings_24</item>
+    </array>
+
+    <array name="cores">
+        <item>@color/light_blue</item>
+        <item>@color/light_green</item>
+        <item>@color/light_orange</item>
+        <item>@color/light_yellow</item>
+        <item>@color/light_grey</item>
+    </array>
+
+</resources>
