@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">app_CEP</string>
+    <string name="cep_informado">Informe o cep:</string>
+    <string name="btn_buscar">BUSCAR CEP</string>
+    <string name="btn_limpar">LIMPAR CAMPOS</string>
+    <string name="logradouro">Logradouro -</string>
+    <string name="tipo_logradouro">Tipo Logradouro -</string>
+    <string name="bairro">Bairro -</string>
+    <string name="cidade">Cidade -</string>
+    <string name="uf">UF -</string>
+    <string name="fonte_via_cep">Fonte: Via CEP</string>
+    <string name="titulo">Onde você está ?</string>
+</resources>

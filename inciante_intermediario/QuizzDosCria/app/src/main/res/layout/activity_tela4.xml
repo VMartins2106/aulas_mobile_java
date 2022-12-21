@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDEFEC"
+    tools:context=".Tela4">
+
+    <RadioGroup
+        android:id="@+id/grpQuatro"
+        android:layout_width="370dp"
+        android:layout_height="586dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.565">
+
+        <RadioButton
+            android:id="@+id/alternativaAQUATRO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/alternativaAQUATRO" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="133dp"
+            android:layout_height="85dp"
+            app:srcCompat="@drawable/wesley_procurado" />
+
+        <RadioButton
+            android:id="@+id/alternativaBQUATRO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/alternativaBQUATRO" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="144dp"
+            android:layout_height="106dp"
+            app:srcCompat="@drawable/botoninho" />
+
+        <RadioButton
+            android:id="@+id/alternativaCQUATRO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/alternativaCQUATRO" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="126dp"
+            android:layout_height="89dp"
+            app:srcCompat="@drawable/botoni_mascarado" />
+
+        <RadioButton
+            android:id="@+id/alternativaDQUATRO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/alternativaDQUATRO" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="152dp"
+            android:layout_height="117dp"
+            app:srcCompat="@drawable/magrao_simio" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/nomeTelaQuatro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <TextView
+        android:id="@+id/perguntaQuatro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="@string/perguntaQuatro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.074" />
+
+    <TextView
+        android:id="@+id/tituloPerguntaQuatro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="@string/tituloPerguntaQuatro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.212"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <Button
+        android:id="@+id/btnRespostaQuatro"
+        android:layout_width="330dp"
+        android:layout_height="53dp"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="@string/btnRespostaQuatro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.985" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

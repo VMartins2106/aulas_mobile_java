@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">app_parametros</string>
+    <string name="txtnome">Nome:</string>
+    <string name="txtemail">Email:</string>
+    <string name="btcadastrar">Cadastrar</string>
+    <string name="btvoltar">Voltar</string>
+</resources>

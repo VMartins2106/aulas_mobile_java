@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDEFEC"
+    tools:context=".Tela1">
+
+    <RadioGroup
+        android:id="@+id/grpUm"
+        android:layout_width="347dp"
+        android:layout_height="573dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/alternativaAUM"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/alternativaAUM" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="117dp"
+            android:layout_height="88dp"
+            app:srcCompat="@drawable/biel" />
+
+        <RadioButton
+            android:id="@+id/alternativaBUM"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/alternativaBUM" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/imageFilterView9"
+            android:layout_width="119dp"
+            android:layout_height="91dp"
+            app:srcCompat="@drawable/yan" />
+
+        <RadioButton
+            android:id="@+id/alternativaCUM"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/alternativaCUM" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="119dp"
+            android:layout_height="95dp"
+            app:srcCompat="@drawable/wesley" />
+
+        <RadioButton
+            android:id="@+id/alternativaDUM"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/alternativaDUM" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="129dp"
+            android:layout_height="109dp"
+            app:srcCompat="@drawable/vitao" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/perguntaUm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="@string/perguntaUm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.068" />
+
+    <TextView
+        android:id="@+id/nomeTelaUm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <TextView
+        android:id="@+id/tituloPerguntaUm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="@string/tituloPerguntaUm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.228"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <Button
+        android:id="@+id/btnRespostaUm"
+        android:layout_width="338dp"
+        android:layout_height="51dp"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="@string/btnRespostaUm"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

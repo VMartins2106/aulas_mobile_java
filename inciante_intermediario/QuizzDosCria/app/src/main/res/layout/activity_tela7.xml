@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDEFEC"
+    tools:context=".Tela7">
+
+    <RadioGroup
+        android:id="@+id/grpSete"
+        android:layout_width="361dp"
+        android:layout_height="563dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.553">
+
+        <RadioButton
+            android:id="@+id/alternativaASETE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/alternativaASETE" />
+
+        <ImageView
+            android:id="@+id/imageView32"
+            android:layout_width="156dp"
+            android:layout_height="99dp"
+            app:srcCompat="@drawable/maceduino" />
+
+        <RadioButton
+            android:id="@+id/alternativaBSETE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/alternativaBSETE" />
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="149dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/kairy_japinha" />
+
+        <RadioButton
+            android:id="@+id/alternativaCSETE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/alternativaCSETE" />
+
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="161dp"
+            android:layout_height="102dp"
+            app:srcCompat="@drawable/biel_quase" />
+
+        <RadioButton
+            android:id="@+id/alternativaDSETE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/alternativaDSETE" />
+
+        <ImageView
+            android:id="@+id/imageView35"
+            android:layout_width="164dp"
+            android:layout_height="87dp"
+            app:srcCompat="@drawable/wesley_caxumbinha" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/perguntaSete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="@string/perguntaSete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <TextView
+        android:id="@+id/nomeTelaSete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <TextView
+        android:id="@+id/tituloPerguntaSete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="@string/tituloPerguntaSete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.233"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <Button
+        android:id="@+id/btnRespostaSete"
+        android:layout_width="342dp"
+        android:layout_height="51dp"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="@string/btnRespostaSete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.449"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

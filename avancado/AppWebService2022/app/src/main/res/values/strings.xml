@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AppWebService2022</string>
+    <string name="nome">Nome</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="nivel">Nivel</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="excluir">Excluir</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="limpar">Limpar</string>
+    <string name="conUsua">Consultar U</string>
+    <string name="consultar">Consultar</string>
+    <string name="busca">Buscar</string>
+</resources>

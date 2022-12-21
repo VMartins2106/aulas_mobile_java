@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#BBE1ED">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/righteous"
+        android:text="@string/titulo"
+        android:textSize="26sp"
+        android:textColor="#21199E"/>
+
+    <EditText
+        android:id="@+id/cep"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="180dp"
+        android:fontFamily="@font/righteous"
+        android:hint="@string/cep_informado"
+        android:singleLine="false"
+        android:textColor="@color/black"
+        android:inputType="number"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="250dp"
+        android:backgroundTint="#1E90FF"
+        android:fontFamily="@font/righteous"
+        android:onClick="btnBuscarCEP"
+        android:text="@string/btn_buscar" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="250dp"
+        android:backgroundTint="#1E90FF"
+        android:fontFamily="@font/righteous"
+        android:onClick="btnLimparCampos"
+        android:text="@string/btn_limpar" />
+
+    <TextView
+        android:id="@+id/logradouro"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="360dp"
+        android:fontFamily="@font/righteous"
+        android:text="@string/logradouro"
+        android:textColor="#21199E"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tipo_logradouro"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="430dp"
+        android:fontFamily="@font/righteous"
+        android:text="@string/tipo_logradouro"
+        android:textColor="#21199E"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/bairro"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="560dp"
+        android:fontFamily="@font/righteous"
+        android:text="@string/bairro"
+        android:textColor="#21199E"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/cidade"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="500dp"
+        android:fontFamily="@font/righteous"
+        android:text="@string/cidade"
+        android:textColor="#21199E"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/uf"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="630dp"
+        android:fontFamily="@font/righteous"
+        android:text="@string/uf"
+        android:textColor="#21199E"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="700dp"
+        android:fontFamily="@font/righteous"
+        android:gravity="center_horizontal"
+        android:text="@string/fonte_via_cep"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+</RelativeLayout>

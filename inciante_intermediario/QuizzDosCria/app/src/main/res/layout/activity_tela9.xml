@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDEFEC"
+    tools:context=".Tela9">
+
+    <TextView
+        android:id="@+id/perguntaNove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="@string/perguntaNove"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <TextView
+        android:id="@+id/tituloPerguntaNove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="@string/tituloPerguntaNove"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.231"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <TextView
+        android:id="@+id/nomeTelaNove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <RadioGroup
+        android:id="@+id/grpNove"
+        android:layout_width="341dp"
+        android:layout_height="560dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.357"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.625">
+
+        <RadioButton
+            android:id="@+id/alternativaANOVE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/alternativaANOVE" />
+
+        <ImageView
+            android:id="@+id/imageView34"
+            android:layout_width="150dp"
+            android:layout_height="105dp"
+            app:srcCompat="@drawable/biel_linguinha" />
+
+        <RadioButton
+            android:id="@+id/alternativaBNOVE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/alternativaBNOVE" />
+
+        <ImageView
+            android:id="@+id/imageView37"
+            android:layout_width="151dp"
+            android:layout_height="98dp"
+            app:srcCompat="@drawable/yan_narizinho" />
+
+        <RadioButton
+            android:id="@+id/alternativaCNOVE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/alternativaCNOVE" />
+
+        <ImageView
+            android:id="@+id/imageView39"
+            android:layout_width="165dp"
+            android:layout_height="94dp"
+            app:srcCompat="@drawable/quasimo" />
+
+        <RadioButton
+            android:id="@+id/alternativaDNOVE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/alternativaDNOVE" />
+
+        <ImageView
+            android:id="@+id/imageView38"
+            android:layout_width="177dp"
+            android:layout_height="67dp"
+            app:srcCompat="@drawable/botoni_empolgadinho" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnRespostaNove"
+        android:layout_width="332dp"
+        android:layout_height="48dp"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="@string/btnRespostaNove"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.43"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

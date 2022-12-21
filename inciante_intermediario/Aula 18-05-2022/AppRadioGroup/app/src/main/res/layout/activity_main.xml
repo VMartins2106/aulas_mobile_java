@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/digite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/digite"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtValue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/salario"
+        android:inputType="numberDecimal"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/percentual"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/digite"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/percentual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/percentual"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/rgpOpcoes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtValue" />
+
+    <RadioGroup
+        android:id="@+id/rgpOpcoes"
+        android:layout_width="338dp"
+        android:layout_height="201dp"
+        app:layout_constraintBottom_toTopOf="@+id/calcular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/percentual">
+
+        <RadioButton
+            android:id="@+id/r40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/r40" />
+
+        <RadioButton
+            android:id="@+id/r45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/r45" />
+
+        <RadioButton
+            android:id="@+id/r50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/r50" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="calcularSalario"
+        android:text="@string/calcular"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rgpOpcoes" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

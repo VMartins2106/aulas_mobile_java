@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Att_parametros2</string>
+    <string name="txt1">Escolha um gênero: </string>
+    <string name="txt2">Digite sua altura: </string>
+    <string name="altura">Altura</string>
+    <string name="btnF">Feminino</string>
+    <string name="btnM">Masculino</string>
+    <string name="escolha_um_g_nero">Escolha um gênero</string>
+    <string name="btnCalc">Calcular</string>
+    <string name="btnVoltar">Voltar</string>
+</resources>

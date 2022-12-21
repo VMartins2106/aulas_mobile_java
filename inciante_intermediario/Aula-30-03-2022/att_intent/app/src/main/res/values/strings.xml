@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">att_intent</string>
+    <string name="txt">Selecione o gênero: </string>
+    <string name="txt1">Informe sua altura: </string>
+    <string name="valor1">Altura: </string>
+    <string name="txt2">Informe sua altura: </string>
+    <string name="valor2">Altura: </string>
+    <string name="btnm">Masculino</string>
+    <string name="btnf">Feminino</string>
+    <string name="voltar">Voltar</string>
+    <string name="btnVoltaF">Voltar</string>
+    <string name="btnCalcularF">Calcular</string>
+    <string name="btnCalcularM">Calcular</string>
+    <string name="btnVoltaM">Voltar</string>
+</resources>

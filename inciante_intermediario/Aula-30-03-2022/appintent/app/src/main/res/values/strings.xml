@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">app intent</string>
+    <string name="btnt2">Tela 2</string>
+    <string name="btnt3">Tela 3</string>
+    <string name="voltar">Voltar</string>
+    <string name="btnVoltaT2">Voltar</string>
+    <string name="btnVoltaT3">Voltar</string>
+</resources>

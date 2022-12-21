@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AlunoSQLite</string>
+    <string name="titulo">Cadastrar Usuário</string>
+    <string name="textinho">Toque sobre o nome para editar o cadastro. \n Mantenha pressionado para excluir. \n Deslize a lista para exibir mais registros.</string>
+    <string name="novo_cadastro">NOVO CADASTRO</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="nome">Nome</string>
+    <string name="idade">Idade</string>
+    <string name="e_mail">E-mail</string>
+    <string name="endereco">Endereço</string>
+    <string name="salvar_cadastro">SALVAR CADASTRO</string>
+    <string name="buscar">BUSCAR</string>
+    <string name="curso">Curso</string>
+    <string name="cidade">Cidade</string>
+    <string name="cpf">Cpf</string>
+</resources>

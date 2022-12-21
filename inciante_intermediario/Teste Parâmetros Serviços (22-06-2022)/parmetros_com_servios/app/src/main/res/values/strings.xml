@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">parâmetros_com_serviços</string>
+    <string name="nome">Nome:</string>
+    <string name="telefone">Telefone:</string>
+    <string name="email">E-mail:</string>
+    <string name="endereco">Endereço:</string>
+    <string name="tela2">DADOS CADASTRADOS</string>
+    <string name="botao">Cadastrar</string>
+    <string name="atencao">ATENÇÃO! \n\n Clique no icone de telefone para fazer a ligação ou usar o Whatsapp. No de e-mail para enviar uma mensagem e no mapa para abrir no Google Maps.</string>
+</resources>

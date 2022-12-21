@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDEFEC"
+    tools:context=".Tela2">
+
+    <RadioGroup
+        android:id="@+id/grpDois"
+        android:layout_width="373dp"
+        android:layout_height="586dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.496">
+
+        <RadioButton
+            android:id="@+id/alternativaADOIS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/alternativaADOIS" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="122dp"
+            android:layout_height="98dp"
+            app:srcCompat="@drawable/macedinho" />
+
+        <RadioButton
+            android:id="@+id/alternativaBDOIS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/alternativaBDOIS" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="125dp"
+            android:layout_height="98dp"
+            app:srcCompat="@drawable/kairyzinho" />
+
+        <RadioButton
+            android:id="@+id/alternativaCDOIS"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/alternativaCDOIS" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="126dp"
+            android:layout_height="102dp"
+            app:srcCompat="@drawable/biel_tremido" />
+
+        <RadioButton
+            android:id="@+id/alternativaDDOIS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/alternativaDDOIS" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="117dp"
+            android:layout_height="99dp"
+            app:srcCompat="@drawable/vitao_fominha" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/perguntaDois"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="@string/perguntaDois"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061" />
+
+    <TextView
+        android:id="@+id/nomeTelaDois"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.038"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.016" />
+
+    <TextView
+        android:id="@+id/tituloPerguntaDois"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="@string/tituloPerguntaDois"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.196"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.016" />
+
+    <Button
+        android:id="@+id/btnRespostaDois"
+        android:layout_width="323dp"
+        android:layout_height="59dp"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="@string/btnRespostaDois"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.989" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

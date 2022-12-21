@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">QuizzDosCria</string>
+
+    <string name="titulo">QUIZZ DOS CRIA</string>
+    <string name="txtNome">Digite seu nome:</string>
+    <string name="nome">Rela em mim</string>
+    <string name="btnPrincipal">COMEÇAR</string>
+    <string name="teste">----------------------------------------------------------------------------------------------------------------------</string>
+
+    <!--COMENTÁRIO EM STRINGS-->
+
+    <string name="tituloPerguntaUm">, Pergunta 1:</string>
+    <string name="perguntaUm">QUEM É O MAIS ENGRAÇADO ?</string>
+    <string name="alternativaAUM">A)BIEL POUCO OLHO</string>
+    <string name="alternativaBUM">B)YAN ROSTO FINO</string>
+    <string name="alternativaCUM">C)WESLEY LOSANGO</string>
+    <string name="alternativaDUM">D)VITAOCEFALIA</string>
+    <string name="btnRespostaUm">CONFIRMAR</string>
+
+    <string name="tituloPerguntaDois">, Pergunta 2:</string>
+    <string name="perguntaDois">QUEM É O MAIS PARCEIRO DE TODO MUNDO ?</string>
+    <string name="alternativaADOIS">A)MACEDO LERDAO</string>
+    <string name="alternativaBDOIS">B)KAIRY OLHO DE NÓS TODOS</string>
+    <string name="alternativaCDOIS">C)BIEL TREMIDINHA</string>
+    <string name="alternativaDDOIS">D)VITAO FOMINHA</string>
+    <string name="btnRespostaDois">CONFIRMAR</string>
+
+    <string name="tituloPerguntaTres">, Pergunta 3:</string>
+    <string name="perguntaTres">Aperte o play e diga de quem é esse áudio</string>
+    <string name="alternativaATRES">A)BOTONI 3 CARAS</string>
+    <string name="alternativaBTRES">B)BIEL POUCO CRÂNIO</string>
+    <string name="alternativaCTRES">C)SALLES PEDREIRO</string>
+    <string name="alternativaDTRES">D)YANPTILIANO</string>
+    <string name="btnRespostaTres">CONFIRMAR</string>
+
+    <string name="tituloPerguntaQuatro">, Pergunta 4:</string>
+    <string name="perguntaQuatro">QUAL DESTAS É A MELHOR PANORÂMICA ?</string>
+    <string name="alternativaAQUATRO">A)SALLES PROCURADO</string>
+    <string name="alternativaBQUATRO">B)BOTONI.ZIP</string>
+    <string name="alternativaCQUATRO">C)BOTINHO FINÃO</string>
+    <string name="alternativaDQUATRO">D)MAGRAO SIMIO</string>
+    <string name="btnRespostaQuatro">CONFIRMAR</string>
+
+    <string name="tituloPerguntaCinco">, Pergunta 5:</string>
+    <string name="perguntaCinco">QUEM TÁ MAIS FEIO ?</string>
+    <string name="alternativaACINCO">A)SAMUEL NEANDERTAL</string>
+    <string name="alternativaBCINCO">B)GERALDO NOVO TESTAMENTO</string>
+    <string name="alternativaCCINCO">C)MAGRAO RISO FINO</string>
+    <string name="alternativaDCINCO">D)YAN SURPRESINHA</string>
+    <string name="btnRespostaCinco">CONFIRMAR</string>
+
+    <string name="tituloPerguntaSeis">, Pergunta 6:</string>
+    <string name="perguntaSeis">QUAL É A MELHOR DUPLA ?</string>
+    <string name="alternativaASEIS">A)BIEL SUMIDO E MACEDO DEMÊNCIA</string>
+    <string name="alternativaBSEIS">B)BIEL E YAN FOFOS</string>
+    <string name="alternativaCSEIS">C)VITAO E BIEL MONGÓLICOS</string>
+    <string name="alternativaDSEIS">D)YAN SUMIDO E BOTONI ABAPURU</string>
+    <string name="btnRespostaSeis">CONFIRMAR</string>
+
+    <string name="tituloPerguntaSete">, Pergunta 7:</string>
+    <string name="perguntaSete">QUEM É O PIOR NO FUTMESA DOS CRIA ?</string>
+    <string name="alternativaASETE">A)MACEDO ENGOLE FOFO</string>
+    <string name="alternativaBSETE">B)KAIRY GIRAFINHA</string>
+    <string name="alternativaCSETE">C)BIEL 75%</string>
+    <string name="alternativaDSETE">D)WESLEY CAXUMBINHA</string>
+    <string name="btnRespostaSete">CONFIRMAR</string>
+
+    <string name="tituloPerguntaOito">, Pergunta 8:</string>
+    <string name="perguntaOito">QUANDO VOCÊ CLICAR NO BOTÃO TERÁ 30 SEGUNDOS PARA RESPONDER</string>
+    <string name="alternativaAOITO">A)MAGRAO ESFINGE</string>
+    <string name="alternativaBOITO">B)FREEDIE MERCURY PERPOSO</string>
+    <string name="alternativaCOITO">C)DINIZ MUITO QI</string>
+    <string name="alternativaDOITO">D)BIEL TARADINHO</string>
+    <string name="btnRespostaOito">CONFIRMAR</string>
+
+    <string name="tituloPerguntaNove">, Pergunta 9:</string>
+    <string name="perguntaNove">QUEM MAIS AMASSA A BOLA NO FUT</string>
+    <string name="alternativaANOVE">A)BIEL SID + PSIU</string>
+    <string name="alternativaBNOVE">B)YAN NARIZINHO</string>
+    <string name="alternativaCNOVE">C)VITAO QUARISMO</string>
+    <string name="alternativaDNOVE">D)BOTONI EMPOLGADINHO</string>
+    <string name="btnRespostaNove">CONFIRMAR</string>
+
+    <string name="tituloPerguntaDez">, Pergunta 10:</string>
+    <string name="perguntaDez">AQUI VAI A PERGUNTA DEZ</string>
+    <string name="alternativaADEZ">A)BOTONI CABECINHA</string>
+    <string name="alternativaBDEZ">B)MAGRÃO BOQUINHA</string>
+    <string name="alternativaCDEZ">C)MACEDO DESMAINHO</string>
+    <string name="alternativaDDEZ">D)BIEL INCOMODADO</string>
+    <string name="btnRespostaDez">CONFIRMAR</string>
+
+    <string name="pontuacao">Pontuação:</string>
+    <string name="btnSobre">Sobre</string>
+
+    <string name="sobreQuizz">Sobre este quizz:</string>
+    <string name="resumo">O INTUITO DO QUIZ É FAZER UMA HOMENAGEM ÀS PESSOAS QUE COM TODA CERTEZA MARCARAM A MINHA VIDA, DE TODAS AS FORMAS... \n AO TODO SÃO 3 ANOS DE AMIZADE QUE COM CERTEZA LEVAREI PARA O RESTO DA MINHA VIDA. \n <center> VALEU FAMILIA, AMO VOCÊS </center></string>
+    <string name="btnVoltar">VOLTAR</string>
+    <string name="btnReiniciar">REINICIAR</string>
+</resources>

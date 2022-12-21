@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDEFEC"
+    tools:context=".Tela6">
+
+    <RadioGroup
+        android:id="@+id/grpSeis"
+        android:layout_width="366dp"
+        android:layout_height="579dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.644"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.572">
+
+        <RadioButton
+            android:id="@+id/alternativaASEIS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/alternativaASEIS" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="133dp"
+            android:layout_height="85dp"
+            app:srcCompat="@drawable/duplaum" />
+
+        <RadioButton
+            android:id="@+id/alternativaBSEIS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/alternativaBSEIS" />
+
+        <ImageView
+            android:id="@+id/imageView36"
+            android:layout_width="149dp"
+            android:layout_height="107dp"
+            app:srcCompat="@drawable/biel_yan" />
+
+        <RadioButton
+            android:id="@+id/alternativaCSEIS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/alternativaCSEIS" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="146dp"
+            android:layout_height="117dp"
+            app:srcCompat="@drawable/dupladois" />
+
+        <RadioButton
+            android:id="@+id/alternativaDSEIS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/alternativaDSEIS" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="147dp"
+            android:layout_height="87dp"
+            app:srcCompat="@drawable/yan_e_botoni" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/nomeTelaSeis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <TextView
+        android:id="@+id/tituloPerguntaSeis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="@string/tituloPerguntaSeis"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.237"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="@string/perguntaSeis"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.086" />
+
+    <Button
+        android:id="@+id/btnRespostaSeis"
+        android:layout_width="326dp"
+        android:layout_height="51dp"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="@string/btnRespostaSeis"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.989" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

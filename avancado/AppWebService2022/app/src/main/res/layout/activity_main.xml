@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/edtUsuario"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/usuario"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="101dp" />
+
+        <EditText
+            android:id="@+id/edtSenha"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="@string/senha"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="45dp" />
+
+        <EditText
+            android:id="@+id/edtNivel"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="@string/nivel"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="95dp" />
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnAtualizar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/atualizar"
+                tools:layout_editor_absoluteX="273dp"
+                tools:layout_editor_absoluteY="157dp" />
+
+            <Button
+                android:id="@+id/btnExcluir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/excluir"
+                tools:layout_editor_absoluteX="157dp"
+                tools:layout_editor_absoluteY="157dp" />
+
+            <Button
+                android:id="@+id/btnLimpar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/limpar"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="205dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnCadastro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cadastro"
+                tools:layout_editor_absoluteX="21dp"
+                tools:layout_editor_absoluteY="157dp" />
+            <Button
+                android:id="@+id/btnConsultar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/consultar"
+                tools:layout_editor_absoluteX="110dp"
+                tools:layout_editor_absoluteY="205dp" />
+
+            <Button
+                android:id="@+id/btnConsultarUsu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/conUsua"
+                tools:layout_editor_absoluteX="242dp"
+                tools:layout_editor_absoluteY="205dp" />
+
+        </LinearLayout>
+
+
+        <ListView
+            android:id="@+id/lstDados"
+            android:layout_width="match_parent"
+            android:layout_height="475dp"
+            android:layout_marginTop="10dp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="253dp" />
+    </LinearLayout>
+
+
+</ScrollView>

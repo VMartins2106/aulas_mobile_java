@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDEFEC"
+    tools:context=".Tela5">
+
+    <TextView
+        android:id="@+id/perguntaCinco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="@string/perguntaCinco"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.064" />
+
+    <TextView
+        android:id="@+id/nomeTelaCinco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/tituloPerguntaCinco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="@string/tituloPerguntaCinco"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.203"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <RadioGroup
+        android:id="@+id/grpCinco"
+        android:layout_width="383dp"
+        android:layout_height="586dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.496">
+
+        <RadioButton
+            android:id="@+id/alternativaACINCO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/alternativaACINCO" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="144dp"
+            android:layout_height="99dp"
+            app:srcCompat="@drawable/samuel_feio" />
+
+        <RadioButton
+            android:id="@+id/alternativaBCINCO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/alternativaBCINCO" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="149dp"
+            android:layout_height="96dp"
+            app:srcCompat="@drawable/geraldo_feio" />
+
+        <RadioButton
+            android:id="@+id/alternativaCCINCO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/alternativaCCINCO" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="150dp"
+            android:layout_height="101dp"
+            app:srcCompat="@drawable/magrao_piadista" />
+
+        <RadioButton
+            android:id="@+id/alternativaDCINCO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/caesar_dressing"
+            android:text="@string/alternativaDCINCO" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="159dp"
+            android:layout_height="98dp"
+            app:srcCompat="@drawable/yan_feio" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnRespostaCinco"
+        android:layout_width="326dp"
+        android:layout_height="51dp"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="@string/btnRespostaCinco"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

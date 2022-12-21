@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">att_intent_externa</string>
+    <string name="txt1">Usuário: </string>
+    <string name="txt2">Senha: </string>
+    <string name="btlogar">Logar</string>
+    <string name="btsair">Sair</string>
+</resources>

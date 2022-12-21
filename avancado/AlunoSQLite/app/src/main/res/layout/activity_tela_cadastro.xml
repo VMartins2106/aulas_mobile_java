@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaCadastro">
+
+    <TextView
+        android:id="@+id/txtVariavel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastrar"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/edtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtVariavel"
+        android:hint="@string/nome"/>
+
+    <EditText
+        android:id="@+id/edtIdade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtNome"
+        android:hint="@string/idade"/>
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtIdade"
+        android:hint="@string/e_mail"/>
+
+    <EditText
+        android:id="@+id/edtEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtEmail"
+        android:hint="@string/endereco"/>
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtEndereco"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/grey"
+        android:onClick="btnSalvar"
+        android:text="@string/salvar_cadastro"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/grey"
+        android:text="@string/buscar"
+        android:textColor="@color/black"
+        android:layout_below="@id/btnSalvar"
+        android:layout_marginTop="10dp"
+        android:onClick="btnBuscar"/>
+
+</RelativeLayout>
